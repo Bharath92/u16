@@ -128,7 +128,7 @@ echo "================ Adding azure 2.0.0rc5 ======================="
 sudo pip install -q 'azure==2.0.0rc5'
 
 echo "================ Adding dopy 0.3.7a ======================="
-sudo  'dopy==0.3.7a'
+sudo pip install -q 'dopy==0.3.7a'
 
 export TF_VERSION=0.8.7
 echo "================ Adding terraform- $TF_VERSION  ===================="
