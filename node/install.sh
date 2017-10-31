@@ -10,8 +10,8 @@ export NVM_DIR="/root/.nvm"
 echo "source ~/.nvm/nvm.sh" >> $HOME/.bashrc
 
 echo "================= Installing nodejs 7.10.1 ================="
-curl -sSL https://deb.nodesource.com/setup_7.x | sudo -E bash -
-sudo apt-get install -y nodejs=7.10.1-2nodesource1~xenial1
+curl -sSL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs=8.8.1-1nodesource1
 
 echo "================= Installing latest yarn ==================="
 sudo apt-key adv --fetch-keys http://dl.yarnpkg.com/debian/pubkey.gpg
